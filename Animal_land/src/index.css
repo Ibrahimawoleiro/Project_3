@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+}
+
+.Card p, form {
+  position: relative;
+  top: 50%;
+}
+
+.App{
+  
+  background-color: red;
+  height: 100vh;
+  background-image: url(./photos/Unknown.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.Card{
+  text-align: center;
+  position: fixed;
+  width: 40%;
+  height: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  opacity: 0.9;
+  background-color: yellow;
+
+}
+
+
+.left{
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.Direction{
+  position: relative;
+  top: 60%;
+  width: 100%;
+  display: flex;
+  flex-basis: 40px;
+  justify-content: space-evenly;
+}
+
+.button{
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  width: 80px;
+  height: 40px;
+  
+}
+
+.button:hover{
+  background-color: pink;
+}
+
+.button{
+  position: relative;
+  top: 25%;
+}
+
+.button:active{
+  background-color: black;
+  color: red;
+
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+#view{
+  color: red;
+}
+.App{
+  text-align: center;
+}
+
+.About,.header{
+  position: relative;
+  top: 100px;
+  color: red;
+
+}
+.About{
+  font-size: 20px;
+}
+
